@@ -10,23 +10,23 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="icono.png" rel="icon">
-  <link href="apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/icono.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="bootstrap.min.css" rel="stylesheet">
-  <link href="icofont.min.css" rel="stylesheet">
-  <link href="boxicons.min.css" rel="stylesheet">
-  <link href="emixicon.css" rel="stylesheet">
-  <link href="venobox.css" rel="stylesheet">
-  <link href="owl.carousel.min.css" rel="stylesheet">
-  <link href="aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="style.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Bethany - v2.2.1
@@ -45,16 +45,16 @@
         <div class="logo mr-auto">
           <!--<h1 class="text-light"><a href="index.html"><span>Bethany</span></a></h1>  -->
           <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html"><img src="cyclonet.png" alt="" class="img-fluid"></a>
+          <a href="index.html"><img src="assets/img/cyclonet.png" alt="" class="img-fluid"></a>
         </div>
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active"><a href="#header">Inicio</a></li>
+            <li class="active"><a href="#header">Home</a></li>
             <li><a href="#about">Nosotros</a></li>
             <li><a href="#services">Servicios</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#team">Equipo</a></li>
+            <li><a href="#portfolio">Aplicaciones</a></li>
+            <!--<li><a href="#team">Equipo</a></li>
             <!-- <li class="drop-down"><a href="">Drop Down</a>
               <ul>
                 <li><a href="#">Drop Down 1</a></li>
@@ -84,7 +84,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
-      <img src="cyclonet.png" alt="" class="img-fluid">
+      <img src="assets/img/cyclonet.png" alt="" class="img-fluid">
       <!-- <h1>Tu mejor aliado en tecnología</h1> -->
       <br>
       <h2>Tu mejor aliado en tecnología</h2>
@@ -96,38 +96,25 @@
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
-      <div class="container">
+  <div class="container" data-aos="zoom-in">
 
-        <div class="row">
+    <div class="row justify-content-center align-items-center">
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-            <img src="client-1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
-            <img src="client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
-            <img src="client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
-            <img src="client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
-            <img src="client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
-            <img src="client-6.png" class="img-fluid" alt="">
-          </div>
-
-        </div>
-
+      <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="Authoriza" style="max-height: 80px; padding: 15px;">
       </div>
-    </section><!-- End Clients Section -->
+
+      <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="FactoNet" style="max-height: 80px; padding: 15px;">
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="INOUT" style="max-height: 80px; padding: 15px;">
+      </div>
+
+    </div>
+  </div>
+</section><!-- End Clients Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -135,43 +122,34 @@
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <h2>Eum ipsam laborum deleniti velitena</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+            <h2 class="gradient-text">Tu evolución digital empieza aquí</h2>
+            <h3>Más que software, entregamos soluciones que simplifican tu día a día y escalan tu visión hacia el futuro digital.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
-            <h2>Misión</h2>
+            <h2>¿Quiénes somos?</h2>
             <p>
-              Impulsar el éxito de nuestros clientes a través de soluciones tecnológicas innovadoras y asesorías especializadas. 
-              Ser el socio estratégico que potencia el crecimiento y la eficiencia de las empresas, guiándolas en su transformación 
-              digital y asegurando que aprovechen al máximo las oportunidades que la tecnología ofrece, esforzándonos por ser líderes 
-              en el campo de las asesorías tecnológicas, brindando servicios de consultoría de alta calidad que permitan a nuestros 
-              clientes adaptarse rápidamente a un entorno empresarial en constante evolución, comprometiéndonos a la excelencia, la 
-              integridad y la innovación con cada proyecto.
-            </p>
+              <p>En <strong class="highlight">Cyclonet</strong>, somos un equipo apasionado por la ingeniería de software y el diseño estratégico.</p>
+
+              <p> No solo creamos herramientas; construimos soluciones que redefinen</strong> la forma en que las empresas operan en la era digital. Nuestra misión es clara: <strong class="highlight">ayudar a las organizaciones a alcanzar su máximo potencial</strong> mediante la optimización de procesos.</p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+              <li><i class="ri-check-double-line"> </i> Desde el diseño de páginas web de alto impacto hasta el desarrollo de software a la medida, nos enfocamos en ofrecer tecnología inteligente que garantice <strong class="highlight">mayor control, organización y eficiencia</strong>.</li>
             </ul>
-            <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
+            <p class="font-italic"> Creemos que la tecnología debe trabajar para ti, y no al revés</p>
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
+    <!-- ======= Counts Section ======= 
     <section id="counts" class="counts">
       <div class="container">
 
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">232</span>
-            <p>Clients</p>
+            <span data-toggle="counter-up">354</span>
+            <p>+200 Empresas Impulsadas</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
@@ -193,6 +171,35 @@
 
       </div>
     </section><!-- End Counts Section -->
+    <section id="counts" class="counts">
+  <div class="container">
+
+    <div class="row counters">
+
+      <div class="col-lg-3 col-6 text-center" data-aos="fade-up">
+        <span style="font-size: 36px; font-weight: 700; color: #ffffff;">24/7</span>
+        <p>Soporte y Disponibilidad</p>
+      </div>
+
+      <div class="col-lg-3 col-6 text-center" data-aos="fade-up" data-aos-delay="100">
+        <span style="font-size: 36px; font-weight: 700; color: #ffffff;">3</span>
+        <p>Soluciones Especializadas (SaaS)</p>
+      </div>
+
+      <div class="col-lg-3 col-6 text-center" data-aos="fade-up" data-aos-delay="200">
+        <span style="font-size: 36px; font-weight: 700; color: #fafafa;">100%</span>
+        <p>Seguridad y Control Digital</p>
+      </div>
+
+      <div class="col-lg-3 col-6 text-center" data-aos="fade-up" data-aos-delay="300">
+        <span style="font-size: 36px; font-weight: 700; color: #ffffff;">360°</span>
+        <p>Visibilidad de tu Negocio</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
@@ -201,13 +208,12 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-right">
             <div class="content">
-              <h3>Why Choose Bethany for your company website?</h3>
+              <h3>¿Por qué  elegirnos?</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                Trabajamos para que la tecnología sea una herramienta que impulse el crecimiento de tu empresa.
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                <a href="#" class="more-btn">Haz parte ya <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -216,23 +222,23 @@
               <div class="row">
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <i class="bx bx-customize"></i>
+                    <h4>Soluciones adaptadas a cada negocio</h4>
+                    <p>Desarrollamos herramientas que se ajustan a las necesidades reales de cada empresa.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    <i class="bx bx-tachometer"></i>
+                    <h4>Optimización de procesos</h4>
+                    <p>Nuestras soluciones permiten automatizar tareas y mejorar la eficiencia operativa.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    <i class="bx bx-support"></i>
+                    <h4>Acompañamiento tecnológico</h4>
+                    <p>Te asesoramos en cada etapa para asegurar que la tecnología aporte valor a tu empresa.</p>
                   </div>
                 </div>
               </div>
@@ -248,9 +254,9 @@
       <div class="container">
 
         <div class="text-center" data-aos="zoom-in">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h3 class ="gradient-text">¿Listo para digitalizar tu éxito?</h3>
+          <p> Deja atrás los procesos manuales. En Cyclonet creamos la tecnología que simplifica tu gestión y acelera tu crecimiento.</p>
+          <a class="cta-btn" href="#">Solicitar asesoría</a>
         </div>
 
       </div>
@@ -263,41 +269,42 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="section-title" data-aos="fade-right">
-              <h2>Services</h2>
-              <p>Magnam dolores commodi suscipit nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <h2>Servicios</h2>
+              <p>En Cyclonet ofrecemos soluciones tecnológicas diseñadas para mejorar la eficiencia, organización y crecimiento de las empresas.</p>
             </div>
           </div>
           <div class="col-lg-8">
             <div class="row">
               <div class="col-md-6 d-flex align-items-stretch">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                  <div class="icon"><i class="fa-regular fa-globe"></i></div>
-                  <h4><a href="">Lorem Ipsum</a></h4>
-                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                  <div class="icon"><i class="bx bx-brain"></i></div>
+                  <h4><a href="">Asesoramiento Tecnológico Empresarial</a></h4>
+                  <p>Analizamos los procesos de tu empresa para identificar oportunidades de mejora mediante tecnología. Te ayudamos a elegir, implementar o desarrollar herramientas digitales que optimicen el funcionamiento de tu negocio.</p>
                 </div>
               </div>
 
               <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                  <div class="icon"><i class="bx bx-file"></i></div>
-                  <h4><a href="">Sed ut perspiciatis</a></h4>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                  <div class="icon"><i class="bx bx-code-alt"></i></div>
+                  <h4><a href="">Desarrollo de Software a la Medida</a></h4>
+                  <p>Diseñamos y desarrollamos software personalizado que se adapta a los procesos específicos de tu empresa.
+                  Nuestros sistemas permiten automatizar tareas, centralizar información y mejorar el control de las operaciones.</p>
                 </div>
               </div>
 
               <div class="col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="icon"><i class="bx bx-tachometer"></i></div>
-                  <h4><a href="">Magni Dolores</a></h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                  <div class="icon"><i class="bx bx-desktop"></i></div>
+                  <h4><a href="">Creación de Páginas Web</a></h4>
+                  <p>Desarrollamos páginas web modernas, rápidas y profesionales que permiten a tu empresa tener presencia digital y captar nuevos clientes.</p>
                 </div>
               </div>
 
               <div class="col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="icon"><i class="bx bx-world"></i></div>
-                  <h4><a href="">Nemo Enim</a></h4>
-                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                  <div class="icon"><i class="bx bx-target-lock"></i></div>
+                  <h4><a href="">Creación de Landing Pages</a></h4>
+                  <p>Creamos landing pages estratégicas enfocadas en conversión, marketing y generación de leads.</p>
                 </div>
               </div>
 
@@ -310,156 +317,61 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
-      <div class="container">
+  <div class="container">
 
-        <div class="section-title" data-aos="fade-left">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    <div class="section-title" data-aos="fade-left">
+      <h2>Nuestras Aplicaciones</h2>
+      <p>En <strong>Cyclonet</strong> contamos con herramientas tecnológicas listas para transformar tu empresa. Soluciones robustas bajo modelos de suscripción diseñadas para optimizar cada área de tu negocio.</p>
+    </div>
+
+    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="col-lg-4 col-md-6 portfolio-item">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Authoriza">
+          <div class="portfolio-info">
+            <h4>Authoriza</h4>
+            <p>Control de Accesos</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="Authoriza - Control de Accesos"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" title="Más detalles"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
         </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Portfolio Section -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="Factonet">
+          <div class="portfolio-info">
+            <h4>Factonet</h4>
+            <p>Gestión de Facturas y Contratos</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Factonet - Gestión de Facturas"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" title="Más detalles"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Inout">
+          <div class="portfolio-info">
+            <h4>Inout</h4>
+            <p>Inventario y Logística</p>
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="Inout - Gestión de Inventario"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" title="Más detalles"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -471,7 +383,7 @@
               <h2>Testimonials</h2>
               <p>Magnam dolores commodi suscipit uisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
-          </div> -->
+          </div> aaaquii cierra LSAC
           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
             <div class="owl-carousel testimonials-carousel">
 
@@ -481,7 +393,7 @@
                   Aplicación basada en la nube para brindar alivio financiero a los usuarios con la asignación de pequeños recursos económicos y que pueden devolver en un corto plazo con un mínimo interés. 
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="contratista2.png" class="testimonial-img" alt="">
+                <img src="assets/img/contratista2.png" class="testimonial-img" alt="">
                 <h3>SHOTRA</h3>
                 <h4>Ceo &amp; Founder</h4>
               </div>
@@ -492,7 +404,7 @@
                   Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
               </div>
@@ -503,7 +415,7 @@
                   Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
               </div>
@@ -514,7 +426,7 @@
                   Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
               </div>
@@ -525,7 +437,7 @@
                   Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="testimonials-5.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
               </div>
@@ -537,7 +449,7 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Team Section ======= -->
+    <!-- ======= Team Section ======= aquiii se cerraria LSAC
     <section id="team" class="team">
       <div class="container">
 
@@ -553,7 +465,7 @@
 
               <div class="col-lg-6">
                 <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                  <div class="pic"><img src="team-1.jpg" class="img-fluid" alt=""></div>
+                  <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>Walter White</h4>
                     <span>Chief Executive Officer</span>
@@ -570,7 +482,7 @@
 
               <div class="col-lg-6 mt-4 mt-lg-0">
                 <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                  <div class="pic"><img src="team-2.jpg" class="img-fluid" alt=""></div>
+                  <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>Sarah Jhonson</h4>
                     <span>Product Manager</span>
@@ -587,7 +499,7 @@
 
               <div class="col-lg-6 mt-4">
                 <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="pic"><img src="team-3.jpg" class="img-fluid" alt=""></div>
+                  <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>William Anderson</h4>
                     <span>CTO</span>
@@ -604,7 +516,7 @@
 
               <div class="col-lg-6 mt-4">
                 <div class="member" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="pic"><img src="team-4.jpg" class="img-fluid" alt=""></div>
+                  <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>Amanda Jepson</h4>
                     <span>Accountant</span>
@@ -633,8 +545,9 @@
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <div class="section-title">
-              <h2>Contact</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <h2>Contáctanos</h2>
+              <p>En Cyclonet estamos listos para ayudarte a transformar tus procesos y optimizar la gestión de tu negocio.
+              Contáctanos y descubre cómo nuestras soluciones pueden impulsar el crecimiento de tu empresa.</p>
             </div>
           </div>
 
@@ -775,19 +688,19 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="jquery.min.js"></script>
-  <script src="bootstrap.bundle.min.js"></script>
-  <script src="jquery.easing.min.js"></script>
-  <script src="validate.js"></script>
-  <script src="jquery.waypoints.min.js"></script>
-  <script src="counterup.min.js"></script>
-  <script src="isotope.pkgd.min.js"></script>
-  <script src="venobox.min.js"></script>
-  <script src="owl.carousel.min.js"></script>
-  <script src="aos.js"></script>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
